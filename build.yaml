@@ -18,3 +18,8 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+  - board: glove80_lh
+  - board: glove80_rh
+  - board: go60_lh
+  - board: go60_rh

@@ -10,5 +10,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: moglove60
+      url: https://github.com/moergo-sc/zmk
+      revision: main
+      path: modules/moglove60
   self:
     path: config
